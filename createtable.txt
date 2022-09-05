@@ -1,0 +1,10 @@
+create table teacher
+(
+     id int unsigned NOT NULL AUTO_INCREMENT,
+     UserId varchar(255) DEFAULT NULL,
+     UserPassword varchar(255) DEFAULT NULL,
+     primary key(id)
+);
+
+insert into teacher('UserId','UserPassword')
+values('mou@mitu.com','youaremy1stlove');
